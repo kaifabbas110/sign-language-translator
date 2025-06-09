@@ -1,0 +1,12 @@
+version: "2"
+authtoken: "2yGdYOLQNwILG4pYboGR3fD1A2W_83nTEBfaqytsF6dppXnQ4"
+tunnels:
+  frontend:
+    addr: 5173
+    proto: http
+  flask:
+    addr: 5001
+    proto: http
+  signaling:
+    addr: 5002
+    proto: http
